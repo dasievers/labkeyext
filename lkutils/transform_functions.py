@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 24 10:13:59 2020
-
-@author: dsievers
-
 Script helper functions and objects
 """
 
@@ -99,7 +95,6 @@ class ScriptReader:
         # import raw data
         extension = os.path.splitext(self.filePathIn)[1]
         if 'xls' in extension.lower():
-        #TODO add openpyxl module
             self.data = pd.read_excel(self.filePathIn, **kwargs)
         else:  # then assume text file
             with open(self.filePathIn, 'r', errors='ignore') as f:
