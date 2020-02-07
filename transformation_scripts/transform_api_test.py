@@ -42,9 +42,9 @@ server = '${baseServerURL}'
 apikey = 'apikey|YOURKEYHERE'
 
 #folder = "${containerPath}"
-folder = 'FCIC/FY18_LT_baselines'  # Project folder path
+folder = 'project/subfolder'  # Project folder path
 
-schema = 'assay.General.Sample ID Coordination'
+schema = 'assay.General.AssayName'
 
 #table = 'Batches'
 #table = 'Runs'
