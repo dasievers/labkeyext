@@ -9,7 +9,7 @@ from __future__ import unicode_literals
 #import sys
 #sys.path.append('...')
 
-from lkutils import ScriptReader
+from labkeyext import ScriptReader
 
 
 # =============================================================================

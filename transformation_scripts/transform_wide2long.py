@@ -8,7 +8,7 @@ transformation script for converting to long-format
 #import sys
 #sys.path.append('...')
 
-from lkutils import ScriptReader
+from labkeyext import ScriptReader
 import pandas as pd
 
 
